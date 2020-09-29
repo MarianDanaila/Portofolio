@@ -1,4 +1,4 @@
-/* Start global */
+/* Global */
 *{
     margin: 0;
     padding: 0;
@@ -44,13 +44,13 @@ ul{
     font-style: normal;
   }
 
-/* End global */
+/* End Global */
 
-/* Start Reusable */
+/* Reusable */
 
 /* End Reusable */
 
-/* Start Header Section */
+/* Header Section */
 
 header{
     width: 100%;
@@ -173,3 +173,64 @@ li{
 
 
 /* End Header Section */
+
+/* About Section */
+.about .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-heading{
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 0;
+    margin-bottom: 6rem;
+}
+
+.about-heading h1{
+    font-size: 10rem;
+    opacity: .3;
+}
+
+.about-heading h6{
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.profile-img{
+    flex: 1;
+    margin-right: .5rem;
+}
+
+.about-details{
+    flex: 1;
+}
+
+.social-media{
+    margin-bottom: 5rem;
+}
+
+.social-media i{
+    font-size: 5rem;
+    transition: color 650ms;
+}
+
+.fa-facebook-square:hover{
+    color: #4267b2;
+}
+
+.fa-linkedin:hover{
+    color: #2867B2;
+}
+
+.fa-instagram-square:hover{
+    background: -webkit-linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* End About Section */
+
+/* Skills Section */
+
+/* End Skills Section */
