@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portofolio</title>
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Landing Section -->
     <header>
-        <div class=".menu-toggler">
+        <div class="menu-toggler">
             <div class="bar half start"></div>
-            <div class="bar "></div>
+            <div class="bar"></div>
             <div class="bar half end"></div>
         </div>
         <nav class="top-nav">
@@ -21,22 +22,22 @@
                     <a href="index.html" class="nav-link">Home</a>
                 </li>
                 <li>
-                    <a href="#about.html" class="nav-link">About</a>
+                    <a href="#about" class="nav-link">About</a>
                 </li>
                 <li>
-                    <a href="#skills.html" class="nav-link">Skills</a>
+                    <a href="#skills" class="nav-link">Skills</a>
                 </li>
                 <li>
-                    <a href="#projects.html" class="nav-link">Projects</a>
+                    <a href="#projects" class="nav-link">Projects</a>
                 </li>
                 <li>
-                    <a href="#contact.html" class="nav-link">Contact</a>
+                    <a href="#contact" class="nav-link">Contact</a>
                 </li>
             </ul>
         </nav>
         <div class="landing-text">
             <h1>Danaila Marian</h1>
-            <h6>Aspiring Front End Web Developer</h6>
+            <h6>Aspiring Software Developer</h6>
         </div>
     </header>
     <!-- End Landing Section -->
@@ -44,38 +45,38 @@
     <!-- About Section -->
     <section class="about" id="about">
         <div class="container">
-            <div class="profile-img">
+            <div class="profile-img" data-aos="fade-right" data-aos-delay="300">
                 <img src="./images/me.JPG" alt="Profile Picture">
             </div>
-            <div class="about-details">
+            <div class="about-details" data-aos="fade-left" data-aos-delay="600">
                 <div class="about-heading">
                     <h1>About</h1>
                     <h6>Myself</h6>
                 </div>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                     It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-                     It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                <p>I'm an Aspiring Software Developer based in Bucharest, Romania, and a Computer Science student at the University of Bucharest.
+                    I'm passionate about Web Development, building and designing aesthetic web applications and websites.
+                    On another note, I like to push myself beyond the limits in everything I do and I'm constantly learning.
+                 <div class="social-media">
+                    <ul class="nav-list">
+                        <li>
+                            <a href="https://www.facebook.com/danaila.marian.5" class="icon-link">
+                                <img src="https://img.icons8.com/dusk/64/000000/facebook.png"/>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/marian-danaila/" class="icon-link">
+                                <img src="https://img.icons8.com/dusk/64/000000/linkedin.png"/>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/marian_danaila/" class="icon-link">
+                                <img src="https://img.icons8.com/dusk/64/000000/instagram-new.png"/>
+                            </a>
+                        </li>
+                    </ul>
+                </div>    
             </div>
-            <div class="social-media">
-                <ul class="nav-list">
-                    <li>
-                        <a href="#" class="icon-link">
-                            <i class="fab fa-facebook-square"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="icon-link">
-                            <i class="fab fa-linkedin"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="icon-link">
-                            <i class="fab fa-instagram-square"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+            
         </div>
     </section>
     <!-- End About Section -->
@@ -85,40 +86,41 @@
         <div class="container">
             <div class="section-heading">
                 <h1>Skills</h1>
-                <h6>I do not try to learn all the languages, I just try to master a few of them.</h6>
+                <h6>Currently, I focus mainly on Web Development and I do not try to learn all programming languages, I just try to master a few of them.</h6>
             </div>
             <div class="my-skills">
-                <div class="skill">
+                <div class="skill" data-aos="fade-in" data-aos-delay="300">
                     <div class="icon-container">
-                        <img src="https://img.icons8.com/dusk/64/000000/media-queries.png"/>
+                        <img src="https://img.icons8.com/dusk/128/000000/server.png"/>
+                    </div>
+                    <h1>Server</h1>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>ASP.NET MVC</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
+                <div class="skill" data-aos="fade-in" data-aos-delay="600">
+                    <div class="icon-container">
+                        <img src="https://img.icons8.com/dusk/128/000000/media-queries.png"/>
                     </div>
                     <h1>Front End</h1>
                     <ul>
                         <li>HTML</li>
                         <li>CSS</li>
-                        <li>Javascript</li>
-                        <li>React</li>
+                        <li>JavaScript</li>
+                        <li>React.js</li>
                     </ul>
                 </div>
-                <div class="skill">
+                <div class="skill" data-aos="fade-in" data-aos-delay="900">
                     <div class="icon-container">
-                        <img src="https://img.icons8.com/dusk/64/000000/server.png"/>
+                        <img src="https://img.icons8.com/dusk/128/000000/code.png"/>
                     </div>
-                    <h1>Server</h1>
+                    <h1>Others</h1>
                     <ul>
-                        <li>Node.js</li>
-                        <li>Express</li>
-                        <li>Python</li>
-                    </ul>
-                </div>
-                <div class="skill">
-                    <div class="icon-container">
-                        <img src="https://img.icons8.com/dusk/64/000000/database.png"/>
-                    </div>
-                    <h1>Database</h1>
-                    <ul>
-                        <li>mySQL</li>
-                        <li>MongoDB</li>
+                        <li>C/C++</li>
+                        <li>Linux</li>
+                        <li>Git</li>
                     </ul>
                 </div>
             </div>
@@ -134,48 +136,50 @@
                 <h6>Some of my recent work</h6>
             </div>
             <div class="project-item">
-                <div class="project-description">
-                    <h6>React, Chart.js, Material UI</h6>
-                    <h1>Covid-19 Tracker</h1>
-                    <p>Data visualization app for COVID-19 with statistics and charts about the evolution of the virus.</p>
+                <div class="project-img has-margin-right" data-aos="fade-right" data-aos-delay="300">
+                    <img src="/images/project1.jpg" alt="Project1">
                 </div>
-                <a href="#" class="cta">Source Code</a>
-                <div class="project-img">
-                    <img src="" alt="Project1">
+                <div class="project-description" data-aos="fade-left" data-aos-delay="600">
+                    <h6>React.js, Chart.js, Material UI</h6>
+                    <h1>Covid-19 Tracker</h1>
+                    <p>Corona Virus is, unfortunately, spreading through the entire world. What can we, as developers, do to make the situation better?
+                        We can help to spread awareness by visualizing the data.
+                        </p>
+                    <a href="https://github.com/MarianDanaila/Covid-19-Tracker" class="cta">Source Code</a>
+                    <p>Not finished yet</p>
                 </div>
             </div>
             <div class="project-item">
-                <div class="project-description">
+                <div class="project-description has-margin-right" data-aos="fade-right" data-aos-delay="900">
                     <h6>API</h6>
                     <h1>Weather-App</h1>
-                    <p>Application to show the current weather from the user's location. I used an API from OpenWeatherMap.</p>
+                    <p>Application to show the current weather from a location. For this I used OpenWeatherMap API.</p>
+                    <a href="https://github.com/MarianDanaila/Weather-App/tree/master" class="cta">Source Code</a>
                 </div>
-                <a href="#" class="cta">Source Code</a>
-                <div class="project-img">
-                    <img src="" alt="Project2">
+                <div class="project-img" data-aos="fade-left" data-aos-delay="1200">
+                    <img src="/images/project2.png" alt="Project2">
                 </div>
             </div>
             <div class="project-item">
-                <div class="project-description">
+                <div class="project-img has-margin-right" data-aos="fade-right" data-aos-delay="1500">
+                    <img src="/images/project3.png" alt="Project3">
+                </div>
+                <div class="project-description" data-aos="fade-left" data-aos-delay="1800">
                     <h6>Responsive Design</h6>
                     <h1>Cake House</h1>
                     <p>Cake House is a nice one page website fully responsive. During this project I learned a lot about CSS and responsiveness.</p>
-                </div>
-                <a href="#" class="cta">Source Code</a>
-                <div class="project-img">
-                    <img src="" alt="Project3">
+                    <a href="https://github.com/MarianDanaila/Cake-House" class="cta">Source Code</a>
                 </div>
             </div>
             <div class="project-item">
-                <div class="project-description">
+                <div class="project-description has-margin-right" data-aos="fade-right" data-aos-delay="2100">
                     <h6>HTML, CSS and Javascript</h6>
                     <h1>Quiz-Game</h1>
-                    <p>Small game made for my university course(web programming). For fetching the questions and answers I used Open Trivia DB API.
-                    </p>
+                    <p>Small game made for my university course(web programming). For fetching the questions and answers I used Open Trivia DB API.</p>
+                    <a href="https://github.com/MarianDanaila/Quiz-App" class="cta">Source Code</a>
                 </div>
-                <a href="#" class="cta">Source Code</a>
-                <div class="project-img">
-                    <img src="" alt="Project4">
+                <div class="project-img" data-aos="fade-left" data-aos-delay="2400">
+                    <img src="/images/project4.png" alt="Project4">
                 </div>
             </div>
         </div>
@@ -189,7 +193,7 @@
                 <h1>Contact</h1>
                 <h6>Let's work together</h6>
             </div>
-            <form action="">
+            <form action="" data-aos="fade-up" data-aos-delay="300">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" placeholder="Enter your name..." required>
                 <label for="email">Email:</label>
@@ -205,16 +209,17 @@
     <!-- Footer Section -->
     <footer class="copyright">
         <div class="up" id="up">
-            <i class="fas fa-chevron-up"></i>
-            <p>&copy; 2020 Danaila Marian</p>
+            <img src="https://img.icons8.com/dusk/128/000000/circled-chevron-up.png"/>
         </div>
+        <p>&copy; 2020 Danaila Marian</p>
     </footer>
     <!-- End Footer Section -->
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
-    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
