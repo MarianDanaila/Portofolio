@@ -2,7 +2,7 @@
   "name": "portofolio",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "public/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "echo 'build script executed'"
